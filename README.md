@@ -21,7 +21,7 @@ Never work directly on the `main` branch when making new edits or adding feature
 
 ---
 
-## 💾 Step 2: Save, Stage, and Commit Your Edits
+##  Step 2: Save, Stage, and Commit Your Edits
 As you write code, remember to save your files (`Ctrl + S` or `Cmd + S`).
 
 1. Open the **Source Control** tab on the left.
@@ -30,7 +30,7 @@ As you write code, remember to save your files (`Ctrl + S` or `Cmd + S`).
 
 ---
 
-## 📤 Step 3: Send Your Branch to GitHub
+##  Step 3: Send Your Branch to GitHub
 Once your edits are committed:
 
 1. Click the blue **Publish Branch** (or **Sync Changes**) button in the Source Control panel.
@@ -38,7 +38,7 @@ Once your edits are committed:
 
 ---
 
-## 📩 Step 4: Propose Your Changes (Pull Request)
+##  Step 4: Propose Your Changes (Pull Request)
 To merge your branch into the main project:
 
 1. Go to our repo
