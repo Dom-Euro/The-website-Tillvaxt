@@ -1,0 +1,48 @@
+<svg width="1400" height="900" viewBox="0 0 1400 900" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1400" height="900" fill="#f3efe8"/>
+  <g stroke="#171717" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M150 260 C110 200, 105 110, 160 76 C215 42, 306 52, 357 84 C401 112, 430 165, 428 220 L428 514 C429 613, 356 668, 257 668 C186 668, 144 624, 138 570 L138 260 Z" fill="#f7f4ef"/>
+    <path d="M442 208 C468 165, 518 142, 557 150 C595 158, 620 187, 617 237 C612 320, 573 370, 520 413 C477 447, 448 488, 439 533 L431 583 C428 618, 452 644, 487 644 C533 644, 567 613, 583 577 C621 497, 648 437, 695 368 C738 304, 792 260, 863 252 C931 244, 1001 300, 1028 375 C1053 444, 1037 514, 988 566 C950 608, 901 657, 879 705 L678 705 C646 665, 645 617, 653 565 C668 468, 619 388, 565 330 C514 274, 468 245, 442 208 Z" fill="#f4efe9"/>
+    <path d="M845 120 C770 104, 710 125, 659 172 C621 207, 598 260, 604 313 C611 387, 662 445, 760 490" fill="none"/>
+    <path d="M785 236 L882 236"/>
+    <path d="M790 318 L910 318"/>
+    <path d="M757 410 L905 410"/>
+    <path d="M215 268 L232 268"/>
+    <path d="M195 330 L220 330"/>
+    <path d="M205 400 L227 400"/>
+    <path d="M250 610 L302 610"/>
+    <path d="M750 680 L860 680"/>
+
+    <g transform="translate(585,163)">
+      <circle cx="120" cy="120" r="72" fill="#111"/>
+      <circle cx="120" cy="120" r="58" fill="#0d2615"/>
+      <text x="120" y="118" text-anchor="middle" font-family="Arial" font-size="18" fill="#bdf7bb">Composting</text>
+      <text x="120" y="146" text-anchor="middle" font-family="Arial" font-size="30" fill="#f2fff4">42%</text>
+    </g>
+
+    <g transform="translate(210,230)">
+      <rect x="0" y="0" width="210" height="100" fill="#dfe8e8"/>
+      <path d="M30 62 C48 36, 75 38, 85 61 C93 80, 61 90, 30 62 Z"/>
+      <path d="M110 62 C128 36, 157 37, 167 61 C174 81, 142 90, 110 62 Z"/>
+      <path d="M188 62 C202 36, 228 43, 232 62 C236 80, 210 90, 188 62 Z"/>
+    </g>
+
+    <g transform="translate(230,500)">
+      <rect x="0" y="0" width="260" height="140" fill="#dfe8e8"/>
+      <path d="M35 104 C60 45, 120 40, 150 90 C177 135, 108 160, 35 104 Z"/>
+      <path d="M160 105 C189 60, 220 59, 242 90 C268 128, 225 160, 160 105 Z"/>
+    </g>
+
+    <g transform="translate(700,520)">
+      <rect x="0" y="0" width="240" height="110" fill="#dfe8e8"/>
+      <path d="M20 82 C45 60, 54 64, 75 82 C95 98, 86 110, 20 82 Z"/>
+      <path d="M125 82 C147 52, 187 55, 200 82 C217 109, 182 120, 125 82 Z"/>
+    </g>
+  </g>
+
+  <g font-family="Arial, sans-serif" font-size="24" fill="#171717">
+    <text x="120" y="130">Composting chamber</text>
+    <text x="520" y="128">Growth chamber</text>
+    <text x="820" y="150">Air flow &amp; filtration</text>
+  </g>
+</svg>

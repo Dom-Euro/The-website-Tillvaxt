@@ -473,7 +473,7 @@ h4 {
 
 .chapter-summary {
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
+  grid-template-columns: 1fr;
   gap: 2rem;
   margin-top: 2rem;
 }
@@ -481,6 +481,39 @@ h4 {
 .summary-panel,
 .metric-panel {
   padding: 1.5rem;
+}
+
+.image-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1.25rem;
+  margin: 2rem 0;
+}
+
+.concept-card {
+  margin: 0;
+  background: #f7f3ee;
+  border: 2px solid var(--ink);
+  box-shadow: 6px 6px 0 var(--ink);
+  overflow: hidden;
+}
+
+.concept-card img {
+  width: 100%;
+  height: 320px;
+  object-fit: cover;
+  border-bottom: 2px solid var(--ink);
+  background: #f0ece6;
+}
+
+.concept-card figcaption {
+  padding: 0.8rem 1rem;
+  text-align: center;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+  color: var(--ink);
 }
 
 .metric-panel {
@@ -535,8 +568,8 @@ h4 {
   .hero-grid,
   .chapter-grid,
   .project-grid,
-  .chapter-summary,
-  .project-showcase {
+  .project-showcase,
+  .image-gallery {
     grid-template-columns: 1fr 1fr;
   }
 
@@ -562,7 +595,8 @@ h4 {
   .project-showcase,
   .chapter-summary,
   .stats,
-  .panel-secondary {
+  .panel-secondary,
+  .image-gallery {
     grid-template-columns: 1fr;
   }
 
