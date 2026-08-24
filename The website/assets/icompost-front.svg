@@ -1,0 +1,60 @@
+<svg width="1200" height="760" viewBox="0 0 1200 760" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg1" x1="0" x2="1">
+      <stop offset="0%" stop-color="#e7e1d9"/>
+      <stop offset="100%" stop-color="#c7b39a"/>
+    </linearGradient>
+    <linearGradient id="body" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f8f6f3"/>
+      <stop offset="100%" stop-color="#e7e0d7"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" x2="0" y1="0" y2="1">
+      <stop offset="0%" stop-color="#dfe8f2"/>
+      <stop offset="100%" stop-color="#a8c1b4"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="760" fill="url(#bg1)"/>
+
+  <g transform="translate(200,40)">
+    <path d="M260 60 C185 15, 110 35, 80 115 L55 220 C38 285, 62 372, 140 445 C179 486, 208 540, 225 600 L275 600 C295 535, 325 480, 360 430 C451 303, 454 170, 410 115 C378 76, 324 57, 260 60 Z" fill="url(#body)" stroke="#171717" stroke-width="4"/>
+
+    <path d="M240 35 C209 14, 175 15, 157 44 C140 73, 143 94, 165 107 C188 120, 225 122, 242 87 C253 66, 252 49, 240 35 Z" fill="#8cc57a" stroke="#171717" stroke-width="4"/>
+    <path d="M240 50 C207 61, 186 82, 176 102" fill="none" stroke="#1d1d1d" stroke-width="3" stroke-linecap="round"/>
+    <path d="M180 80 C198 112, 213 126, 235 138" fill="none" stroke="#1d1d1d" stroke-width="3" stroke-linecap="round"/>
+
+    <g transform="translate(150,175)">
+      <circle cx="130" cy="120" r="90" fill="#1a1a1a"/>
+      <circle cx="130" cy="120" r="72" fill="#0d2412"/>
+      <text x="130" y="118" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" fill="#b7f5b4" font-weight="700">Composting</text>
+      <text x="130" y="155" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" fill="#e8f7eb" font-weight="700">42%</text>
+      <text x="130" y="180" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d5e9d8">2.1kg</text>
+      <text x="130" y="196" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" fill="#d5e9d8">Food Waste</text>
+    </g>
+
+    <g transform="translate(155,370)">
+      <rect x="0" y="0" width="300" height="150" rx="18" fill="url(#glass)" stroke="#171717" stroke-width="4"/>
+      <g fill="#79c76f" opacity="0.9">
+        <path d="M20 100 C55 75, 78 78, 82 102 C89 132, 34 135, 20 100 Z"/>
+        <path d="M98 96 C120 60, 144 69, 152 96 C160 130, 118 133, 98 96 Z"/>
+        <path d="M170 100 C195 70, 215 72, 224 96 C232 125, 190 132, 170 100 Z"/>
+        <path d="M245 100 C268 76, 290 79, 292 103 C296 132, 252 133, 245 100 Z"/>
+      </g>
+      <g fill="#7fbf79" opacity="0.75">
+        <path d="M30 120 C50 98, 62 97, 71 118 C77 133, 57 141, 30 120 Z"/>
+        <path d="M112 117 C127 95, 148 95, 155 118 C160 135, 136 141, 112 117 Z"/>
+        <path d="M202 118 C223 96, 246 100, 251 121 C255 136, 232 144, 202 118 Z"/>
+      </g>
+    </g>
+
+    <g transform="translate(145,422)">
+      <rect x="0" y="0" width="290" height="70" rx="8" fill="#f3f0eb" stroke="#171717" stroke-width="4"/>
+      <g fill="none" stroke="#171717" stroke-width="2">
+        <path d="M35 35 L60 35 M46 20 L46 50"/>
+        <path d="M92 35 L117 35 M103 20 L103 50"/>
+        <path d="M150 35 L175 35 M163 20 L163 50"/>
+        <path d="M209 35 L234 35 M221 20 L221 50"/>
+      </g>
+    </g>
+  </g>
+</svg>
